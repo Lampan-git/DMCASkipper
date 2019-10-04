@@ -3,7 +3,7 @@ from time import sleep
 
 import pystray
 from SwSpotify import spotify
-from SysTrayIcon import *
+from src.SysTrayIcon import *
 from spotify_local import SpotifyLocal
 
 import requests
