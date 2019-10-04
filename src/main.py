@@ -36,7 +36,7 @@ def main():
         Item('Stop DMCASkipper',
              lambda: set_stop(True)),
         Item(
-            'Autoskip',
+            'Auto skip',
             on_clicked_autoskip,
             checked=get_autoskip,
             radio=True),
