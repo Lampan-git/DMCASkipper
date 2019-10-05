@@ -6,7 +6,7 @@ Program to skip songs in Spotify that risks DMCA strikes
 ## How to use it
 You interact with the program in the system tray. 
 
-When you start the program it will automatically skip songs from artist signed by Atlantic Records.
+When you start the program it will automatically skip songs from artist signed at Atlantic Records.
 The program can also skip Warner Records' artists' songs, but you have to enable it yourself.
 You can also disable the auto skip. 
 
