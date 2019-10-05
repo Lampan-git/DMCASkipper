@@ -1,6 +1,6 @@
 # DMCASkipper
 
-Made to skip songs in spotify that risks DMCA strikes
+Program to skip songs in Spotify that risks DMCA strikes
 
 
 ## How to use it
@@ -10,16 +10,28 @@ When you start the program it will automatically skip songs from artist signed b
 The program can also skip Warner Records' artists' songs, but you have to enable it yourself.
 You can also disable the auto skip. 
 
+## Downloading it and running it
+### For Windows:
+#### Easiest:
+Download the `DMCASkipper.exe` in releases
 
-## For developing
-If you clone project, you need to install some dependencies with pip: 
+#### Run it via python
+Clone/download the project and install the dependencies:
 ```
 pip install pystray
 pip install SwSpotify
 ```
+Run the program by just executing the `main.py` file with python: `python src/main.py`
 
-To build the program yourself, go into the DMCASkipper folder use pyinstaller:
+#### Build it yourself
+Clone/download the project and install the dependencies. Go into the DMCASkipper folder and use pyinstaller:
 ```
-pyinstaller --noconsole --onefile src/main.py  
+pyinstaller --noconsole --onefile --icon=icon.ico src/main.py  
 ```
-If it is not installed, install it by using pip. 
+If pyinstaller is not installed, install it by using pip. 
+
+After you have the `.exe` file, just run it and it should work out of the box. 
+
+
+### For Linux or OSX:
+I have not tried it on Linux or OSX. But should work with some minor changes, since all the libraries supports it. 
