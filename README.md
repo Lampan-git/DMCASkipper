@@ -11,8 +11,8 @@ The program can also skip Warner Records' artists' songs, but you have to enable
 You can also disable the auto skip. 
 
 ## Downloading it and running it
-### For Windows:
-#### Easiest:
+### Windows
+#### Easiest
 Download the `DMCASkipper.exe` in releases
 
 #### Run it via python
@@ -33,5 +33,5 @@ If pyinstaller is not installed, install it by using pip.
 After you have the `.exe` file, just run it and it should work out of the box. 
 
 
-### For Linux or OSX:
+### Linux or OSX:
 I have not tried it on Linux or OSX. But should work with some minor changes, since all the libraries supports it. 
